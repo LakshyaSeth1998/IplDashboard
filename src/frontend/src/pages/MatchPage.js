@@ -26,7 +26,7 @@ export const MatchPage =  () => {
         </div>
         <div>
             <h1 className='page-heading'>{IPLTeamName[teamName]} matches in {year}</h1>
-            {matches.map(match => <MatchDetailCard match={match} teamName={teamName} />)}
+            {matches.map(match => <MatchDetailCard key={match.id} match={match} teamName={teamName} />)}
         </div>
     </div>
   );
