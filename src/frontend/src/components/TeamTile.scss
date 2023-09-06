@@ -1,0 +1,14 @@
+.TeamTile {
+    height: 150px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px; 
+    padding: 30px;
+    /* Add flex properties for centering */
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    background-color: #5f6c7e89; /* Dark background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    text-transform: uppercase;
+}
